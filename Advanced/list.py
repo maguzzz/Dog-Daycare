@@ -7,7 +7,7 @@ class Dog:
         self.name = name
         self.age = age
         self.pickup = pickup
-    
+           
     #Checking if the dog is ready for Pickup
         if self.pickup == True:
             self.pickup = self.name + " is ready for pickup"
