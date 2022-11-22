@@ -24,6 +24,3 @@ dog1 = Dog("Australian Shepherd","Clair","5",True)
 dog2 = Dog("Great Pyrenees","Bond","3",True)
 dog3 = Dog("Shiba Inu","Ubuntu","2",False)
 dog4 = Dog("Golden Retriever","Micheal","8","Test")
-
-print(dog2.__str__())
-print(dog1.__str__())
