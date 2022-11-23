@@ -24,3 +24,5 @@ dog1 = Dog("Australian Shepherd","Clair","5",True)
 dog2 = Dog("Great Pyrenees","Bond","3",True)
 dog3 = Dog("Shiba Inu","Ubuntu","2",False)
 dog4 = Dog("Golden Retriever","Micheal","8","Test")
+
+allDogs = [dog1,dog2,dog3,dog4]
