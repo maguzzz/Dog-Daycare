@@ -11,23 +11,23 @@ while True:
         print("\n--------------------------------")
         inputName = str(input("DogName: "))
         inputAge = int(input("Dog Age: "))
-        print("--------------------------------")
     except ValueError:
+        print("--------------------------------")
         print("Invalid input.")
         continue
     else:
         break
 
 for i in allDogs:
-    if (inputName == i.name) and (inputAge == i.age):
+    if (inputName == i.name and inputAge == i.age):
         print(i)
         break
+else:
+    print("--------------------------------")
+    retry = input("Dog not found  Try again? y/n: ").lower()
+    if retry == "y":
+        os.execl(sys.executable, sys.executable, *sys.argv)
+    elif retry == "n":
+        print("Goodbye")
     else:
-        retry = input("Try again? y/n: ").lower()
-        if retry == "y":
-            os.execl(sys.executable, sys.executable, *sys.argv)
-        elif retry == "n":
-            print("Goodbye")
-            break
-        else:
-            print("ERROR")
+        print("ERROR")
