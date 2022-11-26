@@ -4,15 +4,15 @@ from list import *
 
 #PROBLEM #1 | i want to get all class items without creating a list first
 allDogs = [dog1,dog2,dog3,dog4]
-
+border = "--------------------------------"
 #checking input value
 while True:
     try:
-        print("\n--------------------------------")
+        print("\n" + border)
         inputName = str(input("DogName: "))
         inputAge = int(input("Dog Age: "))
     except ValueError:
-        print("--------------------------------")
+        print(border)
         print("Invalid input.")
         continue
     else:
@@ -23,7 +23,7 @@ for i in allDogs:
         print(i)
         break
 else:
-    print("--------------------------------")
+    print(border)
     retry = input("Dog not found  Try again? y/n: ").lower()
     if retry == "y":
         os.execl(sys.executable, sys.executable, *sys.argv)
