@@ -17,7 +17,7 @@ class Dog:
             self.pickup = "ERROR"
 
     def __str__(self):
-        return f'-------------- Dog {self.name} --------------\n Breed|{self.breed}\n Name|{self.name}\n Age|{self.age}\n Status|{self.pickup} \n--------------------------------------'
+        return f'-------------- Dog {self.name} --------------\n Breed|{self.breed}\n Name|{self.name}\n Age|{self.age}\n Status|{self.pickup} \n---------------------------------------'
 
 #list of dogs
 dog1 = Dog("Australian Shepherd","Clair",5,True)
