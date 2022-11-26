@@ -18,10 +18,12 @@ while True:
     else:
         break
 
+#going through the list and checking if the dog is in the list
 for i in allDogs:
     if (inputName == i.name and inputAge == i.age):
         print(i)
         break
+#if th the dog is not in the list asking if you want to restart 
 else:
     print(border)
     retry = input("Dog not found  Try again? y/n: ").lower()
