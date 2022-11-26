@@ -17,10 +17,10 @@ class Dog:
             self.pickup = "ERROR"
 
     def __str__(self):
-        return f'--------------------------\n Breed|{self.breed}\n Name|{self.name}\n Age|{self.age}\n Status|{self.pickup}'
+        return f'-------------- Dog {self.name} --------------\n Breed|{self.breed}\n Name|{self.name}\n Age|{self.age}\n Status|{self.pickup} \n--------------------------------------'
 
 #list of dogs
-dog1 = Dog("Australian Shepherd","Clair","5",True)
-dog2 = Dog("Great Pyrenees","Bond","3",True)
-dog3 = Dog("Shiba Inu","Ubuntu","2",False)
-dog4 = Dog("Golden Retriever","Micheal","8","Test")
+dog1 = Dog("Australian Shepherd","Clair",5,True)
+dog2 = Dog("Shiba Inu","Ubuntu",2,False)
+dog3 = Dog("Great Pyrenees","Bond",4,True)
+dog4 = Dog("Golden Retriever","Micheal",8,False)
