@@ -1,5 +1,4 @@
 # Dog Daycare
-<h2>A programm where you can check if a dog is the list<h2>
 
 * OOP Python
 
